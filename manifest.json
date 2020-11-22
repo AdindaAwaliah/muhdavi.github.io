@@ -3,7 +3,7 @@
   "gcm_sender_id": "191057097503",
   "short_name": "ISBLI",
   "description": "Memberikan informasi sepak bola khusus liga inggris.",
-  "start_url": "/index.html",
+  "start_url": "https://muhdavi.github.io/3rd-submission-pwa/index.html",
   "display": "standalone",
   "background_color": "#DAF111",
   "theme_color": "#DAF111",
