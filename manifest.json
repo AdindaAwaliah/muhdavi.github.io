@@ -1,14 +1,9 @@
 {
   "name": "Informasi Sepak Bola Liga Inggris",
   "short_name": "ISBLI",
-<<<<<<< HEAD
   "description": "Memberikan informasi sepak bola liga inggris.",
   "gcm_sender_id": "191057097503",
-  "start_url": "/index.html",
-=======
-  "description": "Memberikan informasi sepak bola khusus liga inggris.",
   "start_url": "https://muhdavi.github.io/3rd-submission-pwa/index.html",
->>>>>>> 4c5c565a044a88cd32e3e5ac976c1c2207b61255
   "display": "standalone",
   "background_color": "#DAF111",
   "theme_color": "#DAF111",
