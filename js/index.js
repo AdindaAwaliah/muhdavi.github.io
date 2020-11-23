@@ -48,7 +48,7 @@ function requestPermission() {
 
             navigator.serviceWorker.ready.then(() => {
                 if (('PushManager' in window)) {
-                    navigator.serviceWorker.getRegistration().then(function(registration) {
+                    navigator.serviceWorker.getRegistration().then(function (registration) {
                         registration.showNotification('Notifikasi diijinkan!')
                     });
                 }
