@@ -1,6 +1,6 @@
 const CACHE_NAME = "second-submission";
 const urlToCache = [
-    "/",
+    "https://muhdavi.github.io/3rd-submission-pwa/",
     "/index.html",
     "/manifest.json",
     "/apple-icon.png",
