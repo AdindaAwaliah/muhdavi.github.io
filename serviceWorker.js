@@ -25,7 +25,8 @@ workbox.precaching.precacheAndRoute([
     {url: '/js/materialize.min.js', revision: '1'},
     {url: '/images/maskable_icon.png', revision: '1'},
     {url: '/images/isbli-192.png', revision: '1'},
-    {url: '/images/isbli-512.png', revision: '1'}
+    {url: '/images/isbli-512.png', revision: '1'},
+    {url: 'https://muhdavi.github.io/', revision: '1'}
 ]);
 
 
