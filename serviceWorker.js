@@ -6,7 +6,7 @@ else
     console.log('Workbox gagal dimuat');
 
 workbox.precaching.precacheAndRoute([
-    {url: '/', revision: '1'},
+    {url: 'https://muhdavi.github.io/3rd-submission-pwa/', revision: '1'},
     {url: './index.html', revision: '1'},
     {url: './manifest.json', revision: '1'},
     {url: './apple-icon.png', revision: '1'},
