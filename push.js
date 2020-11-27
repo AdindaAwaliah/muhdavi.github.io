@@ -12,10 +12,10 @@ webPush.setVapidDetails(
     vapidKeys.privateKey
 )
 var pushSubscription = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/fAc5kEtOr5k:APA91bF-i4Hl7Ut6VZTjmN7sXh6xtLTTrvtzXvFdWqntfZeWRHfRxQ9sd5kIE6woHBmxy-3v_KzvQzCfhjZPBvmvVtzPfKtKQ_A18fllkTLfly8z4Ct3seiQzy1w8U_SXUAUYaSsdGHK",
+    "endpoint": "https://fcm.googleapis.com/fcm/send/d93rOW1hMb0:APA91bF4byBXxta3CtHFU-QtEm65XrTs4b3YnlPUNj7iF3j8VJSgGAAeGbOAZNVNcoaFmdOVsOc-QPru29kJHGYDh8AT8Gm64-bCPLX5Ei6CaahS1LN9Q4mTmuOkj9wtosisRY-CXBnZ",
     "keys": {
-        "p256dh": "BPq6vAZp6k0V/acw8KdWHp1DFUAgFokU1EnvpAWXkMvhcFP4WXNaDdxuxZQheGwl3/Krzk/8sTcOjWtIFEeqI78=",
-        "auth": "xuRDIoP6xygQj/E2fnNSzA=="
+        "p256dh": "BCHfmRTdf86LCsgKUQTkzG9oLbSB3XL2AjGahAb2VJFBr28t605kcKtXjN72sMWRNbaT4ohtlAsbeW0HaQ/VaPs=",
+        "auth": "bqwxLTitY+7+x1yrapr1rA=="
     }
 };
 var payload = 'Selamat Datang di Aplikasi Informasi Liga Inggris';

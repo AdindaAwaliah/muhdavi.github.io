@@ -48,8 +48,19 @@ function requestPermission() {
 
             navigator.serviceWorker.ready.then(() => {
                 if (('PushManager' in window)) {
-                    navigator.serviceWorker.getRegistration().then(function (registration) {
-                        registration.showNotification('Notifikasi diijinkan!')
+                    navigator.serviceWorker.getRegistration().then(function(registration) {
+                        registration.pushManager.subscribe({
+                            userVisibleOnly: true,
+                            applicationServerKey: "BKhjWAgFt-RKcoKUvffrUzOXoVDueeL8aBlgrwpmc6oqHOzAXGJY2z1CREzQeBGlkRa1qeMjMNBIolFXdpDTqIw"
+                    }).then(function(subscribe) {
+                            console.log('endpoint: ', subscribe.endpoint);
+                            console.log('p256dh key: ', btoa(String.fromCharCode.apply(
+                                null, new Uint8Array(subscribe.getKey('p256dh')))));
+                            console.log('auth key: ', btoa(String.fromCharCode.apply(
+                                null, new Uint8Array(subscribe.getKey('auth')))));
+                        }).catch(function(e) {
+                            console.error('Tidak dapat melakukan subscribe ', e.message);
+                        });
                     });
                 }
             });
